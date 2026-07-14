@@ -1,0 +1,66 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wfNode" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c2128"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="wfAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#8b949e"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="220" fill="none"/>
+
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="600" fill="#e6edf3">
+    <!-- 8 stages evenly spaced -->
+    <!-- stage width ~130, gap ~20, start x=20 -->
+    <g id="stage1">
+      <rect x="10" y="80" width="130" height="60" rx="10" fill="url(#wfNode)" stroke="#30363d"/>
+      <text x="75" y="115" text-anchor="middle">Idea</text>
+    </g>
+    <line x1="140" y1="110" x2="165" y2="110" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow2)"/>
+
+    <g id="stage2">
+      <rect x="165" y="80" width="130" height="60" rx="10" fill="url(#wfNode)" stroke="#30363d"/>
+      <text x="230" y="115" text-anchor="middle">Research</text>
+    </g>
+    <line x1="295" y1="110" x2="320" y2="110" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow2)"/>
+
+    <g id="stage3">
+      <rect x="320" y="80" width="150" height="60" rx="10" fill="url(#wfNode)" stroke="#30363d"/>
+      <text x="395" y="115" text-anchor="middle">Architecture</text>
+    </g>
+    <line x1="470" y1="110" x2="495" y2="110" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow2)"/>
+
+    <g id="stage4">
+      <rect x="495" y="80" width="150" height="60" rx="10" fill="url(#wfNode)" stroke="#30363d"/>
+      <text x="570" y="115" text-anchor="middle">Development</text>
+    </g>
+    <line x1="645" y1="110" x2="670" y2="110" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow2)"/>
+
+    <g id="stage5">
+      <rect x="670" y="80" width="130" height="60" rx="10" fill="url(#wfNode)" stroke="#30363d"/>
+      <text x="735" y="115" text-anchor="middle">Testing</text>
+    </g>
+    <line x1="800" y1="110" x2="825" y2="110" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow2)"/>
+
+    <g id="stage6">
+      <rect x="825" y="80" width="150" height="60" rx="10" fill="url(#wfNode)" stroke="#30363d"/>
+      <text x="900" y="115" text-anchor="middle">Deployment</text>
+    </g>
+    <line x1="975" y1="110" x2="1000" y2="110" stroke="#8b949e" stroke-width="2" marker-end="url(#arrow2)"/>
+
+    <g id="stage7">
+      <rect x="1000" y="80" width="150" height="60" rx="10" fill="url(#wfNode)" stroke="#30363d"/>
+      <text x="1075" y="115" text-anchor="middle">Monitoring</text>
+    </g>
+
+    <!-- Iteration loops back -->
+    <path d="M1075,140 L1075,180 L75,180 L75,140" fill="none" stroke="url(#wfAccent)" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrow2)"/>
+    <text x="600" y="200" text-anchor="middle" font-size="14" font-weight="500" fill="#9198a1">Iteration</text>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#30363d" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#30363d" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#30363d" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="footerText" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="140" fill="none"/>
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="url(#footerFade)" stroke-width="1"/>
+  <text x="600" y="75" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="26" font-weight="700" fill="url(#footerText)">CAForge</text>
+  <text x="600" y="105" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8b949e">Engineering software with clarity, scalability, and purpose.</text>
+</svg>
