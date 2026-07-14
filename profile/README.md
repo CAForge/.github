@@ -84,11 +84,23 @@ Linux
 
 # Featured Projects
 
+---
+
 ### 🚚 FleetFlow
 
 Production-inspired telemetry platform simulating connected vehicles through distributed event streaming.
 
 `FastAPI` • `Kafka` • `Redis` • `Docker` • `PostgreSQL` • `AWS`
+
+<p>
+<a href="http://13.53.163.137">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-2563EB?style=for-the-badge"/>
+</a>
+
+<a href="https://youtu.be/NpORRi-yiKY?si=Dnqln9wsIOw4MMO">
+<img src="https://img.shields.io/badge/▶️_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+</a>
+</p>
 
 ---
 
@@ -98,6 +110,12 @@ Real-time driver monitoring system using computer vision for fatigue, distractio
 
 `Python` • `OpenCV` • `MediaPipe` • `FastAPI`
 
+<p>
+<a href="https://youtu.be/NpORRi-yiKY?si=Dnqln9wsIOw4MMO">
+<img src="https://img.shields.io/badge/▶️_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+</a>
+</p>
+
 ---
 
 ### 👁 Echo Vision
@@ -105,6 +123,12 @@ Real-time driver monitoring system using computer vision for fatigue, distractio
 Browser-based assistive vision platform providing object detection and AI-powered scene understanding.
 
 `React` • `TensorFlow.js` • `Gemini API`
+
+<p>
+<a href="https://echo-vision-seven.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-2563EB?style=for-the-badge"/>
+</a>
+</p>
 
 ---
 
@@ -114,6 +138,12 @@ Digital twin platform synchronizing vehicle telemetry in real time.
 
 `React` • `FastAPI` • `WebSockets`
 
+<p>
+<a href="https://shadow-sim.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-2563EB?style=for-the-badge"/>
+</a>
+</p>
+
 ---
 
 ### 📊 HR Dashboard
@@ -122,6 +152,11 @@ Modern HR management platform featuring employee workflows, analytics and AI-ass
 
 `React` • `TypeScript` • `Node.js`
 
+<p>
+<a href="https://hr-dashboard-five-dusky.vercel.app/">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-2563EB?style=for-the-badge"/>
+</a>
+</p>
 ---
 
 # Technology
