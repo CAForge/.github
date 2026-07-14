@@ -113,9 +113,17 @@ Issues and pull requests instead of direct commits to `main`, because that's the
 <div align="center">
 
 ### 🚚 FleetFlow
-**Telemetry platform simulating connected vehicles through distributed event streaming.**
+**Real-Time Telemetry Dashboard**
 
-`FastAPI` • `Kafka` • `Redis` • `Docker` • `PostgreSQL` • `AWS`
+`FastAPI` • `Kafka` • `Redis` • `Docker` • `PostgreSQL` • `AWS EC2`
+
+<p align="left">
+
+- Architected a distributed telemetry platform that simulates 120 connected vehicles publishing live telemetry every 500 ms, leveraging Apache Kafka for asynchronous event streaming and PostgreSQL for persistent storage.
+- Designed a multi-service backend comprising Simulator, Processing, and API services, implementing schema validation, Redis caching, GPS privacy filtering, and anomaly detection to enable reliable real-time fleet monitoring.
+- Containerised the complete application using Docker Compose and deployed it on AWS EC2, delivering a reproducible development environment with a browser-based live telemetry dashboard.
+
+</p>
 
 <p>
 <a href="https://github.com/CAForge/FleetFlow"><img src="https://img.shields.io/badge/📦_Source-161B22?style=for-the-badge&logo=github&logoColor=white"/></a>
@@ -135,9 +143,17 @@ Issues and pull requests instead of direct commits to `main`, because that's the
 <div align="center">
 
 ### 🧠 Neuro-Drive
-**Real-time driver monitoring system using computer vision for fatigue, distraction and gaze estimation.**
+**Driver Safety Detection System**
 
-`Python` • `OpenCV` • `MediaPipe` • `FastAPI`
+`Python` • `OpenCV` • `MediaPipe` • `FastAPI` • `SSE`
+
+<p align="left">
+
+- Developed a real-time AI driver monitoring system that combines MediaPipe Face Mesh (468 facial landmarks + iris tracking) with OpenCV to detect drowsiness, distraction, yawning, and head-pose deviations using a multi-factor fatigue analysis pipeline.
+- Engineered a fatigue detection engine by integrating Eye Aspect Ratio (EAR), Mouth Aspect Ratio (MAR), gaze tracking, and head-pose estimation, supported by per-user calibration and adaptive low-light preprocessing to improve robustness across varying driving conditions.
+- Built a FastAPI backend with REST APIs, Server-Sent Events (SSE), CSV event logging, and Docker-based deployment, enabling real-time browser alerts and post-session fatigue analysis.
+
+</p>
 
 <p>
 <a href="https://github.com/CAForge/neuro-driver"><img src="https://img.shields.io/badge/📦_Source-161B22?style=for-the-badge&logo=github&logoColor=white"/></a>
@@ -157,9 +173,17 @@ Issues and pull requests instead of direct commits to `main`, because that's the
 <div align="center">
 
 ### 👁 Echo Vision
-**Browser-based assistive vision platform providing object detection and AI-powered scene understanding.**
+**AI Vision Web App**
 
-`React` • `TensorFlow.js` • `Gemini API`
+`React` • `TypeScript` • `TensorFlow.js` • `Face-API.js` • `MediaPipe` • `Gemini API`
+
+<p align="left">
+
+- Developed a browser-based assistive vision platform that performs real-time on-device object detection across 80+ object classes, integrating TensorFlow.js, Face-API.js, and MediaPipe to deliver object recognition, face recognition, gesture interaction, and contextual environmental awareness.
+- Engineered a spatial guidance system using 3 directional zones (Left, Center, Right) and 3 distance categories (Near, Mid, Far), while integrating Google Gemini for scene narration, voice feedback, ambient light detection, and obstacle-aware navigation.
+- Optimised the application for responsive cross-device usage by modularising the React architecture, implementing reusable UI components, and integrating browser-native speech synthesis to deliver low-latency voice assistance across multiple AI features.
+
+</p>
 
 <p>
 <a href="https://github.com/CAForge/Echo-Vision"><img src="https://img.shields.io/badge/📦_Source-161B22?style=for-the-badge&logo=github&logoColor=white"/></a>
