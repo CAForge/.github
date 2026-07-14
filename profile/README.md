@@ -97,10 +97,6 @@ Production-inspired telemetry platform simulating connected vehicles through dis
 <img src="https://img.shields.io/badge/🌐_Live_Demo-2563EB?style=for-the-badge"/>
 </a>
 
-<a href="https://youtu.be/NpORRi-yiKY?si=Dnqln9wsIOw4MMO">
-<img src="https://img.shields.io/badge/▶️_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
-</a>
-</p>
 
 ---
 
