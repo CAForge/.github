@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=CAForge;Learning+by+Building+Real+Systems;AI+%2F+Backend+%2F+Full-Stack+Projects" alt="Typing SVG" />
@@ -152,90 +153,90 @@ Pull requests are checked automatically, and stable points get tagged as release
 
 ## Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<br/>
 
-### 🚚 [FleetFlow](https://github.com/CAForge/FleetFlow)
+### 🚚 FleetFlow
 
-A simulated fleet telemetry platform — event-driven architecture built to learn streaming and multi-service design.
+Fleet telemetry platform simulating connected vehicles through distributed event streaming — built to learn Kafka-based architecture end to end.
 
-- Apache Kafka for telemetry ingestion
-- Redis caching + PostgreSQL for persistence
-- Separate Simulator / Processing / API services
-- Dockerized, deployed on AWS EC2 for testing
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
-`FastAPI` `Kafka` `Redis` `PostgreSQL` `Docker` `AWS`
+<p>
+<a href="https://github.com/CAForge/FleetFlow"><img src="https://img.shields.io/badge/📦_Repo-24292F?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="http://13.53.163.137"><img src="https://img.shields.io/badge/🌐_Live_Demo-2563EB?style=for-the-badge"/></a>
+<a href="https://youtu.be/NpORRi-yiKY?si=Dnqln9wsIOw4MMO"><img src="https://img.shields.io/badge/▶️_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+</p>
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
-### 🚗 [Neuro-Drive](https://github.com/CAForge/neuro-driver)
+### 🧠 Neuro-Drive
 
-A driver monitoring prototype for fatigue and distraction detection.
+Driver monitoring system using computer vision for real-time fatigue, distraction, and gaze estimation.
 
-- MediaPipe Face Mesh (468 landmarks + iris tracking)
-- EAR / MAR based drowsiness & yawning detection
-- Gaze and head-pose deviation tracking
-- Live alerts via Server-Sent Events
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-`Python` `OpenCV` `MediaPipe` `FastAPI` `SSE`
+<p>
+<a href="https://github.com/CAForge/neuro-driver"><img src="https://img.shields.io/badge/📦_Repo-24292F?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://youtu.be/NpORRi-yiKY?si=Dnqln9wsIOw4MMO"><img src="https://img.shields.io/badge/▶️_Demo_Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/></a>
+</p>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<br/>
 
-### 👁️ [Echo-Vision](https://github.com/CAForge/Echo-Vision)
+### 👁 Echo Vision
 
-A browser-based assistive vision prototype exploring accessibility tech.
+Browser-based assistive vision platform providing real-time object detection and AI-powered scene understanding for accessibility.
 
-- On-device object detection (80+ classes)
-- Directional + distance-based spatial guidance
-- Gemini-powered scene narration
-- Native browser speech synthesis for voice feedback
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
-`React` `TypeScript` `TensorFlow.js` `Face-API.js` `Gemini API`
+<p>
+<a href="https://github.com/CAForge/Echo-Vision"><img src="https://img.shields.io/badge/📦_Repo-24292F?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://echo-vision-seven.vercel.app/"><img src="https://img.shields.io/badge/🌐_Live_Demo-2563EB?style=for-the-badge"/></a>
+</p>
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
-### 🕹️ [Shadow-Sim](https://github.com/CAForge/shadow-sim)
+### 🚘 Shadow Sim
 
-A vehicle digital-twin and simulation project.
+Digital twin platform synchronizing vehicle telemetry in real time over WebSockets, with a kinematic bicycle-model physics engine.
 
-- Kinematic bicycle model physics engine
-- WebSocket telemetry at 20Hz with dead-reckoning prediction
-- Z-score based outlier filtering
-- Replay recording and scrubbing
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 
-`FastAPI` `WebSockets` `Three.js`
+<p>
+<a href="https://github.com/CAForge/shadow-sim"><img src="https://img.shields.io/badge/📦_Repo-24292F?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://shadow-sim.vercel.app/"><img src="https://img.shields.io/badge/🌐_Live_Demo-2563EB?style=for-the-badge"/></a>
+</p>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<br/>
 
-### 🧑‍💼 [HR-Dashboard](https://github.com/CAForge/HR_DASHBOARD)
+### 📊 HR Dashboard
 
-An HR management app built to practice full-stack, service-based frontend design.
+HR management platform featuring employee workflows, project allocation, and AI-assisted capabilities.
 
-- Employee tracking and project allocation
-- AI-assisted features via Gemini API
-- Modular, service-based frontend architecture
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 
-`React` `TypeScript` `Vite` `Node.js`
-
-</td>
-<td width="50%" valign="top">
+<p>
+<a href="https://github.com/CAForge/HR_DASHBOARD"><img src="https://img.shields.io/badge/📦_Repo-24292F?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://hr-dashboard-five-dusky.vercel.app/"><img src="https://img.shields.io/badge/🌐_Live_Demo-2563EB?style=for-the-badge"/></a>
+</p>
 
 <br/>
 
 *More projects in progress — check [all repositories](https://github.com/orgs/CAForge/repositories).*
-
-</td>
-</tr>
-</table>
 
 <br/>
 
