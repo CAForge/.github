@@ -1,27 +1,16 @@
 <div align="center">
 
-# CAForge
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0F172A,100:2563EB&text=CAForge&fontColor=ffffff&fontSize=62&fontAlignY=42&desc=Engineering%20AI%20%E2%80%A2%20Distributed%20Systems%20%E2%80%A2%20Modern%20Software&descAlignY=63&animation=fadeIn"/>
 
-### Building intelligent software through engineering, collaboration, and continuous learning.
+# Engineering software beyond the classroom.
 
-<p>
-We are two Computer Science students passionate about designing production-inspired software systems,
-exploring artificial intelligence, and building scalable full-stack applications.
+We are **Chitransh Sahrawat** and **Aditya Tiwari** — two Computer Science students passionate about building production-inspired software systems, exploring artificial intelligence, and designing scalable full-stack applications.
+
+<p align="center">
+<a href="#featured-projects"><img src="https://img.shields.io/badge/Explore%20Projects-111827?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="#technology"><img src="https://img.shields.io/badge/Technology-2563EB?style=for-the-badge"/></a>
+<a href="#team"><img src="https://img.shields.io/badge/Meet%20the%20Team-0F172A?style=for-the-badge"/></a>
 </p>
-
-<br>
-
-<a href="#featured-projects">
-<img src="https://img.shields.io/badge/Explore%20Projects-111111?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<a href="#technology">
-<img src="https://img.shields.io/badge/Technology-0F172A?style=for-the-badge"/>
-</a>
-
-<a href="#team">
-<img src="https://img.shields.io/badge/Team-2563EB?style=for-the-badge"/>
-</a>
 
 </div>
 
@@ -29,34 +18,26 @@ exploring artificial intelligence, and building scalable full-stack applications
 
 # About
 
-CAForge is a collaborative engineering workspace where we design and build software beyond the classroom.
+CAForge is our collaborative engineering workspace where we transform ideas into software.
 
-Our goal is simple:
+Rather than building isolated college projects, we enjoy designing systems that help us learn modern engineering practices—event-driven architectures, cloud deployment, computer vision, distributed systems, and full-stack development.
 
-- Build projects that solve real engineering problems.
-- Learn modern software architecture by building.
-- Explore AI, distributed systems, cloud technologies, and scalable backend development.
-- Write clean, maintainable, and well-documented code.
-
-Rather than creating isolated prototypes, we focus on building projects that resemble production software in architecture, tooling, and development practices.
+Every repository represents another step toward becoming better software engineers.
 
 ---
 
-# What We Build
+# Engineering Focus
 
 <table>
-
 <tr>
 
-<td width="50%">
+<td width="33%" align="center">
 
-### Intelligent Systems
+### AI Engineering
 
 Computer Vision
 
 Machine Learning
-
-Real-time AI
 
 Accessibility
 
@@ -64,47 +45,29 @@ Automation
 
 </td>
 
-<td width="50%">
+<td width="33%" align="center">
 
-### Backend Engineering
+### Backend Systems
 
 FastAPI
-
-Distributed Systems
-
-REST APIs
 
 Kafka
 
 Redis
 
-WebSockets
+REST APIs
+
+PostgreSQL
 
 </td>
 
-</tr>
+<td width="33%" align="center">
 
-<tr>
-
-<td>
-
-### Full Stack Applications
+### Cloud & Full Stack
 
 React
 
 TypeScript
-
-Modern UI
-
-Dashboards
-
-Visualization
-
-</td>
-
-<td>
-
-### Cloud Native
 
 Docker
 
@@ -112,282 +75,83 @@ AWS
 
 Linux
 
-Deployment
-
-CI/CD
-
 </td>
 
 </tr>
-
 </table>
-
----
-
-# Engineering Principles
-
-| Principle | Description |
-|------------|-------------|
-| Design before implementation | Understand the system before writing code. |
-| Build for maintainability | Readability matters as much as functionality. |
-| Learn by building | Every project is an opportunity to explore new technologies. |
-| Performance matters | Efficient systems create better experiences. |
-| Documentation is part of development | Good software should be understandable. |
-| Continuous improvement | Every iteration should be better than the previous one. |
-
----
-
-# Technology
-
-## Languages
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=python,cpp,ts,js,sql"/>
-
-</p>
-
-## Backend
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,postgres,redis,docker"/>
-
-</p>
-
-Kafka • REST APIs • WebSockets
-
----
-
-## Frontend
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=react,tailwind,threejs"/>
-
-</p>
-
----
-
-## Artificial Intelligence
-
-TensorFlow.js
-
-MediaPipe
-
-OpenCV
-
-Gemini API
-
-Face API
-
----
-
-## Cloud
-
-<p>
-
-<img src="https://skillicons.dev/icons?i=aws,docker,linux,github"/>
-
-</p>
 
 ---
 
 # Featured Projects
 
----
+### 🚚 FleetFlow
 
-## FleetFlow
+Production-inspired telemetry platform simulating connected vehicles through distributed event streaming.
 
-Production-inspired telemetry platform simulating connected vehicles using event-driven architecture.
-
-**Highlights**
-
-- Real-time telemetry simulation
-- Kafka event streaming
-- Redis caching
-- PostgreSQL persistence
-- Dockerized deployment
-- AWS EC2 hosting
-
-**Stack**
-
-FastAPI • Kafka • Redis • PostgreSQL • Docker • AWS
+`FastAPI` • `Kafka` • `Redis` • `Docker` • `PostgreSQL` • `AWS`
 
 ---
 
-## Neuro-Drive
+### 🧠 Neuro-Drive
 
-AI-powered driver monitoring platform focused on fatigue, distraction, and gaze estimation.
+Real-time driver monitoring system using computer vision for fatigue, distraction and gaze estimation.
 
-**Highlights**
-
-- MediaPipe Face Mesh
-- EAR / MAR analysis
-- Head pose estimation
-- Real-time video processing
-- Server-Sent Events
-
-**Stack**
-
-Python • OpenCV • MediaPipe • FastAPI
+`Python` • `OpenCV` • `MediaPipe` • `FastAPI`
 
 ---
 
-## Echo Vision
+### 👁 Echo Vision
 
-Browser-based assistive vision platform designed to improve accessibility using on-device AI.
+Browser-based assistive vision platform providing object detection and AI-powered scene understanding.
 
-**Highlights**
-
-- Real-time object detection
-- Spatial guidance
-- AI-powered scene narration
-- Privacy-friendly browser inference
-
-**Stack**
-
-React • TensorFlow.js • Face API • Gemini API
+`React` • `TensorFlow.js` • `Gemini API`
 
 ---
 
-## Shadow Sim
+### 🚘 Shadow Sim
 
-Digital twin simulation platform synchronizing vehicle movement using WebSockets.
+Digital twin platform synchronizing vehicle telemetry in real time.
 
-**Highlights**
-
-- Real-time synchronization
-- Predictive movement
-- Interactive visualization
-- Backend event streaming
-
-**Stack**
-
-React • FastAPI • WebSockets
+`React` • `FastAPI` • `WebSockets`
 
 ---
 
-## HR Dashboard
+### 📊 HR Dashboard
 
-Modern employee management platform with analytics and AI-assisted workflows.
+Modern HR management platform featuring employee workflows, analytics and AI-assisted capabilities.
 
-**Highlights**
-
-- Employee management
-- Department organization
-- Analytics dashboards
-- Modular architecture
+`React` • `TypeScript` • `Node.js`
 
 ---
 
-# Development Workflow
+# Technology
 
-```text
-Research
+<p align="center">
 
-↓
+<img src="https://skillicons.dev/icons?i=python,cpp,ts,js,react,fastapi,nodejs,postgres,redis,docker,aws,linux,git"/>
 
-System Design
-
-↓
-
-Architecture
-
-↓
-
-Development
-
-↓
-
-Testing
-
-↓
-
-Deployment
-
-↓
-
-Iteration
-```
+</p>
 
 ---
 
-# Repository Standards
+# Philosophy
 
-Every project follows a common engineering workflow.
-
-- Structured repository layout
-- Clear documentation
-- Docker support where applicable
-- Meaningful commit history
-- Modular architecture
-- RESTful API design
-- Version control best practices
-
----
-
-# Current Focus
-
-- Artificial Intelligence
-- Distributed Systems
-- Cloud Native Development
-- Backend Engineering
-- Full Stack Applications
-- Computer Vision
-- Modern Developer Tooling
+> We believe software engineering is best learned by building.
+>
+> Every project is an opportunity to explore architecture, improve code quality, and understand how modern systems are designed.
 
 ---
 
 # Team
 
-<table>
-
-<tr>
-
-<td align="center" width="50%">
-
-## Chitransh Sahrawat
-
-Full Stack Engineering
-
-Backend Development
-
-Artificial Intelligence
-
-Distributed Systems
-
-Cloud Infrastructure
-
-</td>
-
-<td align="center" width="50%">
-
-## Aditya Tiwari
-
-Full Stack Engineering
-
-Backend Development
-
-Artificial Intelligence
-
-Distributed Systems
-
-Cloud Infrastructure
-
-</td>
-
-</tr>
-
-</table>
-
----
-
-# Looking Ahead
-
-We view every project as an opportunity to strengthen our engineering fundamentals.
-
-As we continue learning, we aim to build software that is not only functional, but thoughtfully designed, maintainable, and reliable.
+| | |
+|:-:|:-:|
+| **Chitransh Sahrawat** | **Aditya Tiwari** |
+| Full Stack Engineering | Full Stack Engineering |
+| Backend Development | Backend Development |
+| Artificial Intelligence | Artificial Intelligence |
+| Distributed Systems | Distributed Systems |
+| Cloud Infrastructure | Cloud Infrastructure |
 
 ---
 
@@ -395,6 +159,8 @@ As we continue learning, we aim to build software that is not only functional, b
 
 ### CAForge
 
-Engineering software with curiosity, collaboration, and craftsmanship.
+*Building software with curiosity, collaboration, and craftsmanship.*
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:2563EB,100:0F172A"/>
