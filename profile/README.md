@@ -1,16 +1,20 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=36&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=CAForge;Building+Production-Grade+AI+Systems;Distributed+Platforms+%26+Full-Stack+Software" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=32&pause=1500&color=6E7681&center=true&vCenter=true&width=560&lines=CAForge" alt="CAForge" />
 
 <br/>
 
-**Building production-grade AI systems, distributed platforms, and full-stack software.**
+<sub>Building production-grade AI systems, distributed platforms, and modern software.</sub>
+
+<br/><br/>
+
+We build software the way it's meant to be built — designed deliberately, engineered for production, and documented so anyone can pick it up.
 
 <br/>
 
-[![Repositories](https://img.shields.io/badge/Repositories-View_All-2F81F7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orgs/CAForge/repositories)
-[![Team](https://img.shields.io/badge/Team-Meet_Us-2F81F7?style=for-the-badge&logo=googlemeet&logoColor=white)](#-team)
-[![Projects](https://img.shields.io/badge/Projects-Explore-2F81F7?style=for-the-badge&logo=rocket&logoColor=white)](#-featured-projects)
+[![Repositories](https://img.shields.io/badge/Repositories-141414?style=for-the-badge&logo=github&logoColor=white)](https://github.com/orgs/CAForge/repositories)
+[![Projects](https://img.shields.io/badge/Projects-141414?style=for-the-badge&logo=vercel&logoColor=white)](#featured-projects)
+[![Documentation](https://img.shields.io/badge/Documentation-141414?style=for-the-badge&logo=readthedocs&logoColor=white)](#development-standards)
 
 </div>
 
@@ -18,83 +22,52 @@
 
 ---
 
-## About CAForge
-
-**CAForge** is a small, focused engineering organization building real-time and AI-driven software across several domains:
-
-- **AI Engineering** — computer vision, real-time inference, applied ML pipelines
-- **Backend Engineering** — API design, service architecture, data pipelines
-- **Distributed Systems** — event streaming, caching layers, multi-service orchestration
-- **Cloud Infrastructure** — containerization, deployment automation, cloud hosting
-- **Full-Stack Applications** — end-to-end products from data pipeline to UI
-- **Developer Tooling** — internal standards, CI/CD, and reusable engineering practices
-
-Every project under CAForge is built and maintained by the same two engineers, following a shared set of engineering standards described below — the goal is consistency and quality across every repository, not just isolated one-off projects.
-
 <br/>
 
----
+## About
 
-## Engineering Principles
+**CAForge** is a small engineering organization designing modern software with production-quality engineering practices. Every project is treated as a real system, not a demo — built with the same discipline around architecture, reliability, and documentation regardless of scale.
+
+Our focus areas:
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td>
 
-### 🏗️ Production First
-Code is written to run, not just to demo. Error handling, edge cases, and real-world conditions are treated as first-class concerns.
-
-</td>
-<td width="33%" valign="top">
-
-### ⚡ Performance Matters
-Latency, memory, and throughput are measured, not assumed — especially in real-time and streaming systems.
+**Artificial Intelligence**
+Applied ML and real-time computer vision
 
 </td>
-<td width="33%" valign="top">
+<td>
 
-### 🧭 Developer Experience
-Clear READMEs, sane defaults, and one-command setups. If it takes more than a few steps to run locally, it's a bug.
-
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
-
-### 🧱 Scalable Architecture
-Systems are designed with clear service boundaries, so components can scale or be replaced independently.
+**Backend Engineering**
+API and service design
 
 </td>
-<td width="33%" valign="top">
+<td>
 
-### 📖 Readable Code
-Code is written for the next person reading it — including the two of us, six months later.
-
-</td>
-<td width="33%" valign="top">
-
-### 🤝 Open Collaboration
-All work moves through issues and reviewed pull requests, never direct commits to `main`.
+**Distributed Systems**
+Event streaming and multi-service architecture
 
 </td>
 </tr>
 <tr>
-<td width="33%" valign="top">
+<td>
 
-### ✅ Testing
-Core logic is covered by tests before it's considered done, not after something breaks.
-
-</td>
-<td width="33%" valign="top">
-
-### 🤖 Automation
-Repetitive tasks — linting, testing, builds — are automated via CI, not run manually before every push.
+**Cloud Infrastructure**
+Containerized, cloud-deployed systems
 
 </td>
-<td width="33%" valign="top">
+<td>
 
-### 📦 CI/CD
-Every pull request is validated automatically before merge. Every stable milestone is tagged as a release.
+**Developer Experience**
+Documentation and tooling that reduce friction
+
+</td>
+<td>
+
+**Full-Stack Engineering**
+End-to-end products, data to interface
 
 </td>
 </tr>
@@ -104,259 +77,271 @@ Every pull request is validated automatically before merge. Every stable milesto
 
 ---
 
-## Tech Stack
+<br/>
+
+## Engineering Philosophy
+
+<table>
+<tr><td width="50%">
+
+**Build for production**
+Code is written to hold up under real conditions, not just to demo well.
+
+</td><td width="50%">
+
+**Design before implementation**
+Architecture decisions are made deliberately, before the first line of code.
+
+</td></tr>
+<tr><td width="50%">
+
+**Performance by default**
+Latency and resource usage are measured, not assumed.
+
+</td><td width="50%">
+
+**Readable software**
+Code is written for the next engineer reading it, not just the compiler.
+
+</td></tr>
+<tr><td width="50%">
+
+**Scalable architecture**
+Clear service boundaries so components can evolve independently.
+
+</td><td width="50%">
+
+**Reliable infrastructure**
+Systems are containerized and deployed the same way every time.
+
+</td></tr>
+<tr><td width="50%">
+
+**Automation over repetition**
+Linting, testing, and builds run in CI — not by hand, before every push.
+
+</td><td width="50%">
+
+**Documentation as code**
+READMEs and architecture docs are maintained alongside the code they describe.
+
+</td></tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+## Technology Stack
 
 <div align="center">
 
 **Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Python](https://img.shields.io/badge/Python-14151A?style=flat-square&logo=python&logoColor=3776AB)
+![C++](https://img.shields.io/badge/C%2B%2B-14151A?style=flat-square&logo=cplusplus&logoColor=00599C)
+![TypeScript](https://img.shields.io/badge/TypeScript-14151A?style=flat-square&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-14151A?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![SQL](https://img.shields.io/badge/SQL-14151A?style=flat-square&logo=postgresql&logoColor=4169E1)
 
 **Backend**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-14151A?style=flat-square&logo=fastapi&logoColor=009688)
+![Node.js](https://img.shields.io/badge/Node.js-14151A?style=flat-square&logo=nodedotjs&logoColor=339933)
+![Kafka](https://img.shields.io/badge/Kafka-14151A?style=flat-square&logo=apachekafka&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-14151A?style=flat-square&logo=redis&logoColor=DC382D)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14151A?style=flat-square&logo=postgresql&logoColor=4169E1)
 
 **Frontend**
+![React](https://img.shields.io/badge/React-14151A?style=flat-square&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-14151A?style=flat-square&logo=tailwindcss&logoColor=06B6D4)
+![Three.js](https://img.shields.io/badge/Three.js-14151A?style=flat-square&logo=threedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-14151A?style=flat-square&logo=typescript&logoColor=3178C6)
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+**AI**
+![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-14151A?style=flat-square&logo=tensorflow&logoColor=FF6F00)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-14151A?style=flat-square&logo=google&logoColor=4285F4)
+![OpenCV](https://img.shields.io/badge/OpenCV-14151A?style=flat-square&logo=opencv&logoColor=5C3EE8)
+![Gemini API](https://img.shields.io/badge/Gemini_API-14151A?style=flat-square&logo=googlegemini&logoColor=8E75B2)
 
-**Cloud & Infra**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-**AI / Computer Vision**
-
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=for-the-badge&logo=google&logoColor=white)
-![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+**Cloud**
+![AWS](https://img.shields.io/badge/AWS-14151A?style=flat-square&logo=amazonaws&logoColor=FF9900)
+![Docker](https://img.shields.io/badge/Docker-14151A?style=flat-square&logo=docker&logoColor=2496ED)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-14151A?style=flat-square&logo=githubactions&logoColor=2088FF)
+![Linux](https://img.shields.io/badge/Linux-14151A?style=flat-square&logo=linux&logoColor=FCC624)
 
 </div>
 
 <br/>
 
 ---
+
+<br/>
 
 ## Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<br/>
 
-### 🚚 [FleetFlow](https://github.com/CAForge/FleetFlow)
-
-Real-time telemetry platform simulating 120 connected vehicles, built on an event-driven streaming architecture.
-
-- Apache Kafka for asynchronous telemetry ingestion
-- Redis caching + PostgreSQL for persistence
-- Multi-service architecture (Simulator / Processing / API)
-- Dockerized, deployed on AWS EC2
+**[FleetFlow](https://github.com/CAForge/FleetFlow)** · [Live](http://13.53.163.137/)
+Real-time telemetry platform simulating connected vehicles over an event-driven streaming architecture.
+- Kafka-based ingestion decoupling simulation from processing
+- Redis caching layer with PostgreSQL for persistence
+- Multi-service design: simulator, processing, and API layers
+- Containerized and deployed on AWS EC2
 
 `FastAPI` `Kafka` `Redis` `PostgreSQL` `Docker` `AWS`
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
-### 🚗 [Neuro-Drive](https://github.com/CAForge/neuro-driver)
-
-Real-time AI driver monitoring system for fatigue and distraction detection.
-
-- MediaPipe Face Mesh (468 landmarks + iris tracking)
-- EAR / MAR based drowsiness & yawning detection
-- Gaze and head-pose deviation tracking
-- Live alerts via Server-Sent Events
+**[Neuro-Drive](https://github.com/CAForge/neuro-driver)** · [Demo](https://youtu.be/NpORRi-yiKY)
+Real-time AI driver monitoring platform for fatigue and distraction detection.
+- MediaPipe Face Mesh with EAR/MAR based fatigue analysis
+- Gaze tracking and head-pose deviation estimation
+- Per-user calibration for cross-condition robustness
+- Live alerting via Server-Sent Events
 
 `Python` `OpenCV` `MediaPipe` `FastAPI` `SSE`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<br/>
 
-### 👁️ [Echo-Vision](https://github.com/CAForge/Echo-Vision)
-
+**[Echo-Vision](https://github.com/CAForge/Echo-Vision)** · [Live](https://echo-vision-seven.vercel.app/)
 Browser-based assistive vision platform for accessibility.
-
-- Real-time on-device object detection (80+ classes)
-- Directional + distance-based spatial guidance
-- Gemini-powered scene narration
-- Native browser speech synthesis for voice feedback
+- On-device object detection across 80+ classes
+- Directional and distance-aware spatial guidance
+- Gemini-powered scene narration with voice output
 
 `React` `TypeScript` `TensorFlow.js` `Face-API.js` `Gemini API`
 
-</td>
-<td width="50%" valign="top">
+<br/>
 
-### 🕹️ [Shadow-Sim](https://github.com/CAForge/shadow-sim)
-
-Real-time vehicle digital twin and interactive simulation platform.
-
+**[Shadow-Sim](https://github.com/CAForge/shadow-sim)** · [Live](https://shadow-sim.vercel.app/)
+Vehicle digital twin with real-time telemetry synchronization.
 - Kinematic bicycle model physics engine
 - WebSocket telemetry at 20Hz with dead-reckoning prediction
-- Z-score based outlier filtering for data integrity
-- Replay recording and scrubbing
+- Statistical outlier filtering for data integrity
 
 `FastAPI` `WebSockets` `Three.js`
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<br/>
 
-### 🧑‍💼 [HR-Dashboard](https://github.com/CAForge/HR_DASHBOARD)
-
-Modern HR management platform.
-
-- Employee tracking and project allocation
-- AI-assisted features via Gemini API
+**[HR-Dashboard](https://github.com/CAForge/HR_DASHBOARD)** · [Live](https://hr-dashboard-five-dusky.vercel.app/)
+Modern HR management platform with AI-assisted workflows.
+- Employee and project tracking
 - Modular, service-based frontend architecture
+- Gemini API integration for AI-assisted features
 
 `React` `TypeScript` `Vite` `Node.js`
 
-</td>
-<td width="50%" valign="top">
-
-<br/>
-
-*More projects in progress — check [all repositories](https://github.com/orgs/CAForge/repositories).*
-
-</td>
-</tr>
-</table>
-
 <br/>
 
 ---
 
-## Organization Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=chitranshsahrawat&show_icons=true&theme=default&hide_border=true" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api?username=Adityatiwari86&show_icons=true&theme=default&hide_border=true" width="48%" />
-
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=chitranshsahrawat&hide_border=true" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Adityatiwari86&hide_border=true" width="48%" />
+## Software Architecture
 
-</div>
-
-> Note: GitHub does not natively provide org-wide contribution stats — the widgets above reflect each member's individual profile.
-
-<br/>
-
----
-
-## Team
-
-<table>
-<tr>
-<td align="center" width="50%">
-
-<img src="https://github.com/chitranshsahrawat.png" width="120" style="border-radius: 50%;" />
-
-### Chitransh Sahrawat
-**AI Engineering · Backend · Distributed Systems · Computer Vision**
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/chitranshsahrawat)
-
-</td>
-<td align="center" width="50%">
-
-<img src="https://github.com/Adityatiwari86.png" width="120" style="border-radius: 50%;" />
-
-### Aditya Tiwari
-**Full-Stack · System Design · Frontend Engineering · Backend**
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Adityatiwari86)
-
-</td>
-</tr>
-</table>
-
-<br/>
-
----
-
-## Engineering Workflow
+**Engineering workflow**
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Idea] --> B[Research]
     B --> C[Architecture]
     C --> D[Development]
     D --> E[Testing]
     E --> F[Deployment]
-    F --> G[Iteration]
-    G --> B
+    F --> G[Monitoring]
+    G --> H[Iteration]
+    H --> B
 ```
 
-Every project moves through this cycle — architecture and testing are not skipped steps, they're where most of the actual engineering decisions happen.
+**System layout**
+
+```mermaid
+flowchart TD
+    A[Frontend] --> B[API Layer]
+    B --> C[Business Logic]
+    C --> D[Database]
+    C --> E[Cloud Infrastructure]
+```
 
 <br/>
 
 ---
 
-## Repository Standards
-
-Every repository in this organization is expected to include:
-
-- [x] Dockerized setup for local development
-- [x] Clear, complete documentation (README with setup + architecture)
-- [x] Documented architecture (diagrams where relevant)
-- [x] CI pipeline (lint + test on every PR)
-- [x] Test coverage for core logic
-- [x] License file (MIT by default)
-- [x] Conventional Commits for commit history
-- [x] GitHub Actions for automation
-
-<details>
-<summary><b>Why these standards?</b></summary>
 <br/>
-Consistency across repositories means anyone — including future collaborators — can open any CAForge project and immediately understand how to run it, how it's structured, and how to contribute to it, without needing a walkthrough.
-</details>
+
+## Development Standards
+
+Every repository in this organization follows the same baseline:
+
+- Containerization for consistent local and production environments
+- Clear, maintained documentation
+- Conventional Commits for a readable history
+- CI/CD on every pull request
+- Mandatory code review before merge
+- Test coverage for core logic
+- Clean, layered architecture
+- Semantic versioning for releases
+- API documentation where applicable
+- Issue tracking for planned work
+- A meaningful README — not a placeholder
 
 <br/>
 
 ---
+
+<br/>
+
+## Team
+
+<table>
+<tr>
+<td width="50%">
+
+**Chitransh Sahrawat**
+AI Engineering · Computer Vision · Backend · Distributed Systems
+[github.com/chitranshsahrawat](https://github.com/chitranshsahrawat)
+
+</td>
+<td width="50%">
+
+**Aditya Tiwari**
+Full-Stack Engineering · Frontend · Backend · System Design
+[github.com/Adityatiwari86](https://github.com/Adityatiwari86)
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
 
 ## Current Focus
 
-<div align="center">
-
-`Distributed Systems` `Real-Time Applications` `Computer Vision` `Applied AI` `Developer Tools` `Cloud-Native Software`
-
-</div>
+`Distributed Systems` `AI Infrastructure` `Cloud-Native Applications` `Developer Tools` `Computer Vision` `Production-Grade APIs`
 
 <br/>
 
 ---
 
-## Future Vision
+<br/>
 
-CAForge exists to build software that holds up under real-world conditions — not just demo conditions. The long-term goal is to keep expanding across distributed systems, real-time applications, and applied AI, while treating every repository as an opportunity to practice better architecture, better testing, and better documentation than the last one. Software craftsmanship isn't a one-time achievement — it's a discipline that compounds project over project, and that's the standard this organization is built around.
+## Future Direction
+
+CAForge is building toward a growing set of scalable, production-grade systems — spanning distributed infrastructure, real-time applications, and applied AI. Each new project is an opportunity to raise the engineering bar set by the last one, with the long-term goal of open-sourcing work that reflects genuine software craftsmanship rather than one-off builds.
 
 <br/>
 
 ---
 
+<br/>
+
 <div align="center">
 
-**Made by CAForge**
+**CAForge**
+Engineering software with clarity, scalability, and purpose.
 
 </div>
